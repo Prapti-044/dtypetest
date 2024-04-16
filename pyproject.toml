@@ -10,7 +10,7 @@ python = "^3.10"
 pytest = "^8.1.1"
 
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.group.docs-dependencies.dependencies]
 sphinx = "^7.2.6"
 sphinx-rtd-theme = "^2.0.0"
 
