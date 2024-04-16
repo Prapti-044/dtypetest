@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dtypetest"
+version = "0.1.0"
+description = ""
+authors = ["Rahat Zaman <rahatzamancse@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^8.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^2.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
