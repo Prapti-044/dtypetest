@@ -10,6 +10,11 @@ def test_simple_fun1(simple_ast_obj: DTypes):
     with pytest.raises(AssertionError) as e_info:
         simple_ast_obj.run()
 
+
+def test_simple_fun1_new(simple_ast_obj: DTypes):
+    simple_ast_obj.given('fun1', {'x': int | str}, None)
+    simple_ast_obj.run()
+
 def test_simple_fun2(simple_ast_obj: DTypes):
     simple_ast_obj.given('fun2', {'y': [int, str]}, None)
     simple_ast_obj.given('fun2', {'y': int | str}, [None])

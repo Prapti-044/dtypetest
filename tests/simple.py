@@ -7,7 +7,7 @@ def fun1(x: int):
 def fun2(y):
 	hello = 5
 	fun1(y)
-	y = 10
+	return hello
 	
 def main():
 	a = 20
